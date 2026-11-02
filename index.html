@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tolganai — Portfolio</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="card">
+    <h1 id="greeting">Assignment 6</h1>
+    <p class="intro">Hi, I'm Tolganai. Second-year student at AITU </p>
+    <div class="btns">
+      <button id="lightBtn">Light</button>
+      <button id="darkBtn">Dark</button>
+    </div>
+  </header>
+
+  <section class="card">
+    <h2>About Me</h2>
+    <p>I like paiting,photography and building small web projects.</p>
+    <p id="status" class="status">Currently learning jQuery!</p>
+    <ul id="facts">
+      <li>Photography</li>
+      <li>Playing guitar</li>
+      <li>Want to visit Italy</li>
+    </ul>
+    <div class="btns">
+      <button id="hideBtn">Hide</button>
+      <button id="showBtn">Show</button>
+      <button id="toggleBtn">Toggle</button>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img class="photo" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=280&h=180&fit=crop" alt="travel">
+      <img class="photo" src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=280&h=180&fit=crop" alt="hobby">
+    </div>
+    <div class="btns">
+      <button id="fadeInBtn">Fade In</button>
+      <button id="fadeOutBtn">Fade Out</button>
+      <button id="fadeToggleBtn">Fade Toggle</button>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>My Favorites</h2>
+
+    <h3 class="slideTitle" data-target="#musicPanel">My Favorite Music</h3>
+    <div id="musicPanel" class="panel">
+      <p> Timbaland - Apologize</p>
+    </div>
+
+    <h3 class="slideTitle" data-target="#moviePanel">My Favorite Movie</h3>
+    <div id="moviePanel" class="panel">
+      <p>inception (Christopher Nolan)</p>
+    </div>
+
+    <h3 class="slideTitle" data-target="#subjectPanel">My Favorite Subject</h3>
+    <div id="subjectPanel" class="panel">
+      <p> Geography</p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>My Skills</h2>
+    <ul id="skillList">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>C++</li>
+    </ul>
+    <input type="text" id="skillInput" placeholder="Enter a new skill">
+    <div class="btns">
+      <button id="addBtn">Add Skill</button>
+      <button id="prependBtn">Prepend Skill</button>
+      <button id="removeBtn">Remove Skill</button>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Social</h2>
+    <a id="socialLink" href="https://github.com/" target="_blank">My GitHub</a>
+    <div class="btns">
+      <button id="changeLinkBtn">Change Link</button>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" id="nameInput" placeholder="Name">
+      <input type="email" id="emailInput" placeholder="Email">
+      <div class="btns">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <p id="preview" class="preview"></p>
+  </section>
+
+  <section class="card">
+    <h2>Skill Bars</h2>
+
+    <div class="skillRow">
+      <span>HTML</span>
+      <div class="bar"><div class="fill" data-width="90%"></div></div>
+    </div>
+    <div class="skillRow">
+      <span>CSS</span>
+      <div class="bar"><div class="fill" data-width="75%"></div></div>
+    </div>
+    <div class="skillRow">
+      <span>JavaScript</span>
+      <div class="bar"><div class="fill" data-width="60%"></div></div>
+    </div>
+
+    <div class="btns">
+      <button id="animateBtn">Animate My Skills</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

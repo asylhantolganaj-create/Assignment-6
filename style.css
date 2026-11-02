@@ -1,0 +1,237 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, Arial, sans-serif;
+  background: #f7f7f5;
+  color: #2c2c2c;
+  line-height: 1.6;
+  padding: 24px 16px;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background: #1c1c1e;
+  color: #d8d8d8;
+}
+
+.card {
+  background: #ffffff;
+  max-width: 680px;
+  margin: 16px auto;
+  padding: 24px;
+  border-radius: 10px;
+  border: 1px solid #e6e6e6;
+}
+
+body.dark .card {
+  background: #252528;
+  border-color: #38383b;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+body.dark h2 { color: #c4c4c4; }
+
+h3 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.headline {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6b6b6b;
+  margin-bottom: 10px;
+}
+
+body.dark .headline { color: #9a9a9a; }
+
+.intro {
+  font-size: 15px;
+  color: #6b6b6b;
+  margin-bottom: 14px;
+}
+
+body.dark .intro { color: #9a9a9a; }
+
+button {
+  font-family: inherit;
+  font-size: 14px;
+  background: #f0f0ee;
+  color: #333;
+  border: 1px solid #ddd;
+  padding: 7px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 3px 4px 3px 0;
+  transition: background 0.15s;
+}
+
+button:hover { background: #e6e6e3; }
+
+body.dark button {
+  background: #333336;
+  color: #ddd;
+  border-color: #444;
+}
+
+body.dark button:hover { background: #3d3d40; }
+
+.btns { margin-top: 12px; }
+
+input {
+  font-family: inherit;
+  font-size: 14px;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin: 4px 6px 4px 0;
+  background: #fafafa;
+}
+
+body.dark input {
+  background: #1c1c1e;
+  color: #ddd;
+  border-color: #444;
+}
+
+.status {
+  color: #b06a00;
+  font-weight: 500;
+  margin: 6px 0;
+}
+
+body.dark .status { color: #e0a94f; }
+
+#facts {
+  list-style: none;
+  margin: 8px 0;
+  padding: 0;
+}
+
+#facts li {
+  padding: 4px 0;
+  color: #555;
+}
+
+body.dark #facts li { color: #aaa; }
+
+#facts li::before {
+  content: "— ";
+  color: #bbb;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.photo {
+  border-radius: 8px;
+  display: block;
+}
+
+.slideTitle {
+  background: #f5f5f3;
+  padding: 10px 14px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #e6e6e6;
+}
+
+body.dark .slideTitle {
+  background: #2e2e31;
+  border-color: #3a3a3d;
+}
+
+.panel {
+  display: none;
+  padding: 10px 14px;
+  color: #666;
+  font-size: 14px;
+}
+
+body.dark .panel { color: #a0a0a0; }
+
+#skillList {
+  list-style: none;
+  margin: 8px 0 12px 0;
+  padding: 0;
+}
+
+#skillList li {
+  padding: 5px 0;
+  color: #555;
+}
+
+body.dark #skillList li { color: #aaa; }
+
+#skillList li::before {
+  content: "• ";
+  color: #b0b0b0;
+}
+
+.preview {
+  margin-top: 10px;
+  color: #6b6b6b;
+  font-size: 14px;
+}
+
+body.dark .preview { color: #9a9a9a; }
+
+#socialLink {
+  color: #4a6cf7;
+  text-decoration: none;
+}
+
+#socialLink:hover { text-decoration: underline; }
+
+body.dark #socialLink { color: #7ea4ff; }
+
+.skillRow {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.skillRow span {
+  font-size: 14px;
+  width: 90px;
+  color: #555;
+}
+
+body.dark .skillRow span { color: #aaa; }
+
+.bar {
+  flex: 1;
+  height: 16px;
+  background: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+body.dark .bar { background: #333336; }
+
+.fill {
+  height: 100%;
+  width: 0;
+  background: #8aa0c9;
+  border-radius: 8px;
+}
+
+body.dark .fill { background: #6e88b8; }
