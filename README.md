@@ -1,6 +1,7 @@
 # Assignment 6 — Portfolio (jQuery)
 
 **Name:** Tolganai Asylkhan
+
 **Group:** SE-2538
 
 
@@ -9,7 +10,8 @@
 ## Task 0 — Setup
 Included jQuery via CDN. All the code is wrapped in `$(document).ready()`. To test it, I printed `"jQuery is ready!"` in the browser console.
 
-![Task 0](screenshots/0.png)
+<img width="990" height="261" alt="image" src="https://github.com/user-attachments/assets/1dc4c71a-77da-43c1-b1af-75f0545ce447" />
+
 
 ## Task 1 — Selectors & CSS
 Used tag (`h1`), ID (`#greeting`), and class (`.headline`, `.intro`) selectors. Dynamically updated the text using `.html()` and `.text()`. Changed styling using `.css()`. Added Light and Dark theme buttons that toggle a class on the `body`.
