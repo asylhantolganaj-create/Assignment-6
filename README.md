@@ -65,6 +65,10 @@ Created a skills list. Added a text input and buttons to manage the list. Used `
 *(Removed skills)*
 <img width="1083" height="496" alt="Снимок экрана 2026-11-02 204708" src="https://github.com/user-attachments/assets/6479558f-373f-42ba-8129-a919f55943a2" />
 
+*(Validation: Empty skill alert)*
+<img width="1105" height="501" alt="Снимок экрана 2026-11-02 204813" src="https://github.com/user-attachments/assets/8343ca02-39d0-49b1-87d5-4bceb859dda0" />
+
+
 
 ## Task 6 — Modifying Attributes
 Added a social media link. The "Change Link" button dynamically changes the `href` attribute (between GitHub and LinkedIn) and the link text using `.attr()`.
@@ -82,6 +86,14 @@ Created a form with Name and Email inputs. The text typed by the user is display
 
 *(Live preview and empty field validation)*
 <img width="1092" height="320" alt="Снимок экрана 2026-11-02 204728" src="https://github.com/user-attachments/assets/a992a694-4842-433d-8a29-39462ff13696" />
+
+*(Validation: Empty fields alert)*
+<img width="1132" height="447" alt="Снимок экрана 2026-11-02 204753" src="https://github.com/user-attachments/assets/6cc1986d-79bb-456d-bbf9-beeca77cecb6" />
+
+
+*(Validation: Invalid email alert)*
+<img width="1113" height="366" alt="Снимок экрана 2026-11-02 204803" src="https://github.com/user-attachments/assets/524887d8-a3b9-49a4-b4eb-ce4257de0fac" />
+
 
 
 ## Task 8 — Basic Animation
